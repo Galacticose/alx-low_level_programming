@@ -4,6 +4,8 @@
  *main - Entry point
  *
  *print a string  using puts function
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
