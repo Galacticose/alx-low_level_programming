@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*main - Entry point
+/*
+ *main - Entry point
  *
  *print a string  using puts function
  */
