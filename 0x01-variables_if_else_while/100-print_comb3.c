@@ -15,18 +15,15 @@ int main(void)
 	{
 		for (b = 0 ; b < 10 ; b++)
 		{
+			putchar(a + '0');
+			putchar(b + '0');
 			if (a >= b)
 			{
 				continue;
-			}
-			putchar(a + '0');
-			putchar(a + '0');
-			if (a < 8 && b < 9)
-			{
 				putchar(',');
 				putchar(' ');
 			}
-			else
+			if (a == 8 && b == 9)
 			{
 				putchar('\n');
 			}
