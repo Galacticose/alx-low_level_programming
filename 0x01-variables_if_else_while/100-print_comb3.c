@@ -20,10 +20,13 @@ int main(void)
 				continue;
 			}
 			putchar(a + '0');
-			putchar(b + '0');
-			putchar(',');
-			putchar(' ');
-			if (a == 8 && b == 9)
+			putchar(a + '0');
+			if (a < 8 && b < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			else
 			{
 				putchar('\n');
 			}
