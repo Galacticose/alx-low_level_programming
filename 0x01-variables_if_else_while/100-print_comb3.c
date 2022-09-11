@@ -23,8 +23,11 @@ int main(void)
 			putchar(b + '0');
 			putchar(',');
 			putchar(' ');
+			if (a == 8 && b == 9)
+			{
+				putchar('\n');
+			}
 		}
 	}
-	putchar('\n');
 	return (0);
 }
