@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (b = 0 ; b < 10 ; b++)
 		{
-			if (a == b)
+			if (a >= b)
 			{
 				continue;
 			}
