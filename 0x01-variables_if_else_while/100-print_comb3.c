@@ -19,7 +19,7 @@ int main(void)
 			{
 				continue;
 			}
-			if (a < 8 && b < 9)
+			if (a <= 8 && b <= 9)
 			{
 				putchar(a + '0');
 				putchar(b + '0');
