@@ -18,11 +18,11 @@ int main(void)
 			if (a == b)
 			{
 				continue;
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(',');
-				putchar(' ');
 			}
+			putchar(a + '0');
+			putchar(b + '0');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
