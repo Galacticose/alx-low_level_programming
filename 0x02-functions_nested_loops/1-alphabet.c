@@ -1,15 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * print lowercase alphabets with a new line
- *
- * Return: Always 0 (success)
+ * print_alphabet - print lower case letters with a new line
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char ch;
+
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+	{
+		_putchar(ch);
+		_putchar('\n');
+	}
 }
