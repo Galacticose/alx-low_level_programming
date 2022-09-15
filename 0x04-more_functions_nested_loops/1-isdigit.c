@@ -3,6 +3,7 @@
 
 /**
  * _isdigit - check if a character is a digit
+ * @c: stores an integer value
  *
  * Return: Always c
  */
