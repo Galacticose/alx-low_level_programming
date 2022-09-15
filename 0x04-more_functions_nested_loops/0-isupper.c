@@ -3,6 +3,7 @@
 
 /**
  * _isupper - check if a character is uppercase
+ * @c: stores an integer value
  *
  * Return: Always c
  */
