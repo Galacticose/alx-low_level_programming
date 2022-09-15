@@ -3,6 +3,8 @@
 /**
  * print_numbers - print numbers from 0 to 9
  * @i: stores an integer value
+ *
+ * _putchar - print character
  */
 void print_numbers(void)
 {
