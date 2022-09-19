@@ -6,7 +6,7 @@
  * @s: stores a character value
  * @i: stores an integer value
  *
- * Return: Always i 
+ * Return: Always length of string
  */
 int _strlen(char *s)
 {
