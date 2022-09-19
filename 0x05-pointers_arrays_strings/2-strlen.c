@@ -4,8 +4,9 @@
 /**
  * _strlen - checks the lenght of a string
  * @s: stores a character value
+ * @i: stores an integer value
  *
- * return i
+ * Return: Always i 
  */
 int _strlen(char *s)
 {
