@@ -3,6 +3,8 @@
 /**
  * print-chessboard - prints the chessboard
  * @a: stores a character
+ *
+ * does not return any value
  */
 void print_chessboard(char (*a)[8])
 {
