@@ -3,9 +3,9 @@
 
 /**
  * _memcpy - copies memory area
- * @dest:
- * @src:
- * @n:
+ * @dest: stores a character being copied
+ * @src: source of a character being copied
+ * @n: size of the byte
  *
  * Return: copied memory area
  */
