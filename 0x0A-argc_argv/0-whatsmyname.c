@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - Entry point
- * @argc: stores an integer
- * @argv: stores a chracter
- * @i: stores an integer
+ * main - entry point
+ * @argc: first operand stores an integer
+ * @argv: second operand stores a chracter
  *
- * Return: Always 0 (success)
+ * Return: Always 0
  */
 int main (int argc, char *argv[])
 {
