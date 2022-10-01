@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
- * @argc: size of array
- * @argv: name of array
+ * main - Entry point
+ * @argc: stores an integer
+ * @argv[]: stores a chracter
  *
  * Return: Always 0 (success)
  */
