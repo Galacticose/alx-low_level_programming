@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  * @argc: stores an integer
- * @argv[]: stores a chracter
+ * @argv: stores a chracter
+ * @i: stores an integer
  *
  * Return: Always 0 (success)
  */
