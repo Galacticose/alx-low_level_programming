@@ -9,12 +9,9 @@
  */
 char *_strdup(char *str)
 {
-	if (*strdup(str) == '\0')
+	return (strdup(str));
+	if (strdup(str) == NULL)
 	{
 		return (NULL);
-	}
-	else
-	{
-		return (strdup(str));
 	}
 }
