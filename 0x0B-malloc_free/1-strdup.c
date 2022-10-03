@@ -11,9 +11,8 @@
 char *_strdup(char *str)
 {
 	return (strdup(str));
-	if (str == NULL)
+	if (strdup(str) == NULL)
 	{
 		return ('\0');
-		free(str);
 	}
 }
