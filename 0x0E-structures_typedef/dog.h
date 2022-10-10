@@ -1,8 +1,8 @@
 /**
  * struct dog - dog details
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
+ * @name: First member
+ * @age: Second member
+ * @owner: Third member
  *
  * Description: dog's name and age and the owner's name
  */
