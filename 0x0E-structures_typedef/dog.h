@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * struct dog - Short description
  * @name: First member
@@ -6,7 +8,6 @@
  *
  * Description: Longer description
  */
-
 struct dog
 {
 	char *name;
