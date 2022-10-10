@@ -2,7 +2,8 @@
 
 /**
  * init_dog - initialize struct dog
- * @d: name of struct dog
+ * @dog: illustrates a structure
+ * @d: name of struct d
  * @name: stores a character
  * @age: stores a float
  * @owner: stores a character
