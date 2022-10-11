@@ -4,7 +4,7 @@
 
 /**
  * print_dog - prints the details of a dog
- * @d: name of structure dog
+ * @d: name of structure
  *
  * Does not return any value
  */
@@ -23,6 +23,6 @@ void print_dog(struct dog *d)
 	}
 	if (d == NULL)
 	{
-		printf("\n");
+		printf(" ");
 	}
 }
