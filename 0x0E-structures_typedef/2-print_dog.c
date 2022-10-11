@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
+
 /**
  * print_dog - prints a struct dog
  * @d: name of structure dog
  *
  * Does not return any value
  */
-
 void print_dog(struct dog *d)
 {
 	printf("Name: %s\n", d->name);
