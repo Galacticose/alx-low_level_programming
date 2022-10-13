@@ -13,7 +13,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list ap;
-	
+
 	va_start(ap, n);
 	for (i = 0 ; i < n ; i++)
 	{
@@ -33,6 +33,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%d", va_arg(ap, int));
 		}
 	}
-	va_end(ap);
 	printf("\n");
+	va_end(ap);
 }
