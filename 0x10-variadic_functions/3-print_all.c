@@ -12,44 +12,49 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-	int i;
-	unsigned int a;
-	float f;
-	char c;
-	char *s;
-	unsigned int len;
+	int in;
+	char ch;
+	int ing;
+	char *str;
+	float flo;
 
-	len = strlen(format);
-	a = 0;
-	while (a < len)
+	va_start(ap, format);
+	in = 0;
+	while (format[in])
 	{
-		va_start(ap, format);
-		switch (format[a])
+		if ((format[in] == 'c') || (format[in] == 'i') || (format[in] == 's') || (format[in] == 'f'))
 		{
-			case 'c':
-				c = va_arg(ap, int);
-				printf("%c, ", c);
-				a++;
-				break;
-			case 'i':
-				i = va_arg(ap, int);
-				printf("%d, ", i);
-				a++;
-				break;
-			case 'f':
-				f = va_arg(ap, double);
-				printf("%f, ", f);
-				a++;
-				break;
-			case 's':
-				s = va_arg(ap, char *);
-				printf("%s, ", s);
-				if (s == NULL)
-					printf("(nil)");
-				a++;
-				break;
+			switch (format[in])
+			{
+				case 'c':
+					{
+						ch = va_arg(ap, int);
+						printf("%c, ", ch);
+					}
+					break;
+				case 'i':
+					{
+						ing = va_arg(ap, int);
+						printf("%d, ", ing);
+					}
+					break;
+				case 's':
+					{
+						str = va_arg(ap, char *);
+						printf("%s, ", str);
+						if (str == NULL)
+							printf("(nil), ");
+					}
+					break;
+				case 'f':
+					{
+						flo = va_arg(ap, double);
+						printf("%f, ", flo);
+					}
+					break;
+			}
 		}
-		a++;
+		in++;
 	}
 	printf("\n");
 	va_end(ap);
